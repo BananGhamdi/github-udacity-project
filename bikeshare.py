@@ -11,6 +11,7 @@ cities=['chicago','new york city','washington']
 months=['January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December','All']
 days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','All']
 
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -187,7 +188,7 @@ def view_data(df):
         except ValueError:
             print('Enter appropriate integer value')
             
-
+# we should refconfig this func
 def main():
     
     while True:
